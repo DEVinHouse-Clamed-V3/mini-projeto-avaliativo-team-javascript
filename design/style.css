@@ -44,28 +44,15 @@ header{
   align-items: center;
 }
 
-.product-container-title{
-  margin:50px 0 8px 15px;
-  width: 90%;
-  color: #00963C;
-}
-
-.product-container{
-  background-color: #FFFFFF;
-  height: 90%;
-  width: 90%;
-  border-radius: 8px;
-  padding: 20px;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
-
 h1{
   font-size: 30px;
   font-weight: bold;
+  color: #000000;
 }
 
 p {
   font-size: 18px;
+  color: #181717;
 }
 
 /* PRODUCT CREATE SESSION */
@@ -95,4 +82,23 @@ p {
   border-radius: 0 0 8px 8px;
   padding: 20px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+/* PRODUCT VISUALIZATION */
+
+.product-container-title{
+  margin:50px 0 8px 15px;
+  width: 90%;
+}
+
+.product-container{
+  background-color: #FFFFFF;
+  height: 90%;
+  width: 90%;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
