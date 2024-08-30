@@ -85,20 +85,39 @@ p {
 }
 
 /* PRODUCT VISUALIZATION */
-
+/* Franklin */
 .product-container-title{
   margin:50px 0 8px 15px;
   width: 90%;
 }
 
-.product-container{
+.productContainer{
   background-color: #FFFFFF;
   height: 90%;
   width: 90%;
   border-radius: 8px;
   padding: 20px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   align-items: center;
+}
+
+.medicine-grid {
+  display: grid;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000;
+  width: 200px;
+  max-width: 200px;
+  padding: 20px;
 }

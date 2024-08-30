@@ -1,0 +1,124 @@
+{
+  "availableMedicine": [
+    {
+      "image": "../assets/medicine_box.png",
+      "nome": "Paracetamol",
+      "dosagem": "500mg",
+      "marca": "Tylenol",
+      "indicacao": "Analgesic/Antipyretic",
+      "descricao": "Used to relieve pain and reduce fever.",
+      "preco": 15.00,
+      "preco_com_desconto": 13.50
+    },
+    {
+      "image": "../assets/medicine_box.png",
+      "nome": "Ibuprofeno",
+      "dosagem": "400mg",
+      "marca": "Advil",
+      "indicacao": "Anti-inflammatory/Analgesic",
+      "descricao": "Helps reduce inflammation and relieve pain.",
+      "preco": 20.00,
+      "preco_com_desconto": 18.00
+    },
+    {
+      "image": "../assets/medicine_box.png",
+      "nome": "Amoxicilina",
+      "dosagem": "500mg",
+      "marca": "Amoxil",
+      "indicacao": "Antibiotic",
+      "descricao": "Treats various types of bacterial infections.",
+      "preco": 25.00,
+      "preco_com_desconto": 22.50
+    },
+    {
+      "image": "../assets/medicine_box.png",
+      "nome": "Loratadina",
+      "dosagem": "10mg",
+      "marca": "Claritin",
+      "indicacao": "Antihistamine",
+      "descricao": "Relieves allergy symptoms such as runny nose.",
+      "preco": 18.00,
+      "preco_com_desconto": 16.20
+    },
+    {
+      "image": "../assets/medicine_box.png",
+      "nome": "Omeprazol",
+      "dosagem": "20mg",
+      "marca": "Prilosec",
+      "indicacao": "Proton Pump Inhibitor",
+      "descricao": "Used for treating acid reflux and heartburn.",
+      "preco": 22.00,
+      "preco_com_desconto": 19.80
+    },
+    {
+      "image": "../assets/medicine_box.png",
+      "nome": "Metformina",
+      "dosagem": "500mg",
+      "marca": "Glucophage",
+      "indicacao": "Antidiabetic",
+      "descricao": "Used to control high blood sugar in diabetics.",
+      "preco": 30.00,
+      "preco_com_desconto": 27.00
+    },
+    {
+      "image": "../assets/medicine_box.png",
+      "nome": "Simvastatina",
+      "dosagem": "40mg",
+      "marca": "Zocor",
+      "indicacao": "Cholesterol-lowering",
+      "descricao": "Helps reduce cholesterol and triglyceride levels.",
+      "preco": 28.00,
+      "preco_com_desconto": 25.20
+    },
+    {
+      "image": "../assets/medicine_box.png",
+      "nome": "Losartana",
+      "dosagem": "50mg",
+      "marca": "Cozaar",
+      "indicacao": "Antihypertensive",
+      "descricao": "Used to treat high blood pressure.",
+      "preco": 26.00,
+      "preco_com_desconto": 23.40
+    },
+    {
+      "image": "../assets/medicine_box.png",
+      "nome": "Atenolol",
+      "dosagem": "50mg",
+      "marca": "Tenormin",
+      "indicacao": "Beta-blocker",
+      "descricao": "Treats high blood pressure and heart conditions.",
+      "preco": 24.00,
+      "preco_com_desconto": 21.60
+    },
+    {
+      "image": "../assets/medicine_box.png",
+      "nome": "Cetirizina",
+      "dosagem": "10mg",
+      "marca": "Zyrtec",
+      "indicacao": "Antihistamine",
+      "descricao": "Relieves allergy symptoms like sneezing and itching.",
+      "preco": 17.00,
+      "preco_com_desconto": 15.30
+    },
+    {
+      "image": "../assets/medicine_box.png",
+      "nome": "Diclofenaco",
+      "dosagem": "50mg",
+      "marca": "Voltaren",
+      "indicacao": "Anti-inflammatory",
+      "descricao": "Used to relieve pain and inflammation.",
+      "preco": 19.00,
+      "preco_com_desconto": 17.10
+    },
+    {
+      "image": "../assets/medicine_box.png",
+      "nome": "Ranitidina",
+      "dosagem": "150mg",
+      "marca": "Zantac",
+      "indicacao": "H2 blocker",
+      "descricao": "Used to treat and prevent ulcers in the stomach.",
+      "preco": 21.00,
+      "preco_com_desconto": 18.90
+    }
+  ]
+}
