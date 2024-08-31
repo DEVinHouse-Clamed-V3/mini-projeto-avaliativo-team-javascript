@@ -47,7 +47,7 @@ header{
 h1{
   font-size: 30px;
   font-weight: bold;
-  color: #000000;
+  color: #FFFFFF;
 }
 
 p {
@@ -83,6 +83,7 @@ p {
   border-radius: 0 0 8px 8px;
   padding: 20px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
 }
 
 .shadowForm{
