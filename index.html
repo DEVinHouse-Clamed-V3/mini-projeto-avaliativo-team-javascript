@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./design/style.css" >
   <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
   <title>FarmetZ - Home </title>
@@ -20,9 +21,11 @@
       <h1>Produtos</h1>
     </div>
       <div class="productContainer" id="medicineList">
-        <p>Os medicamentos serão apresentados aqui!</p>
+        <h1>Medicamentos</h1>
       </div>
-      <button onclick="loadMedicine()">Mostrar Medicamentos</button>
+      <div class="generate-button">
+        <button class="btn" onclick="loadMedicine()">Mostrar Medicamentos</button>
+      </div>
   </div>
 
   <script src="./scripts/medicineList.js"></script>
