@@ -119,6 +119,126 @@
       "descricao": "Usado para tratar e prevenir úlceras no estômago.",
       "preco": 21.00,
       "preco_com_desconto": 18.90
+    },
+    {
+      "image": "../assets/medicine_box.png",
+      "nome": "Aspirina",
+      "dosagem": "100mg",
+      "marca": "Bayer",
+      "indicacao": "Analgésico/Antiplaquetário",
+      "descricao": "Usado para aliviar dor leve a moderada e reduzir o risco de ataque cardíaco.",
+      "preco": 12.00,
+      "preco_com_desconto": 10.80
+    },
+    {
+      "image": "../assets/medicine_box.png",
+      "nome": "Cetoprofeno",
+      "dosagem": "150mg",
+      "marca": "Profenid",
+      "indicacao": "Anti-inflamatório/Analgésico",
+      "descricao": "Alivia dor e inflamação em condições musculoesqueléticas.",
+      "preco": 22.00,
+      "preco_com_desconto": 19.80
+    },
+    {
+      "image": "../assets/medicine_box.png",
+      "nome": "Clonazepam",
+      "dosagem": "2mg",
+      "marca": "Rivotril",
+      "indicacao": "Benzodiazepínico",
+      "descricao": "Usado para tratar distúrbios de ansiedade e epilepsia.",
+      "preco": 18.00,
+      "preco_com_desconto": 16.20
+    },
+    {
+      "image": "../assets/medicine_box.png",
+      "nome": "Enalapril",
+      "dosagem": "10mg",
+      "marca": "Renitec",
+      "indicacao": "Antihipertensivo",
+      "descricao": "Utilizado para tratar pressão alta e insuficiência cardíaca.",
+      "preco": 20.00,
+      "preco_com_desconto": 18.00
+    },
+    {
+      "image": "../assets/medicine_box.png",
+      "nome": "Fluoxetina",
+      "dosagem": "20mg",
+      "marca": "Prozac",
+      "indicacao": "Antidepressivo",
+      "descricao": "Usado para tratar depressão, transtorno de ansiedade e transtorno obsessivo-compulsivo.",
+      "preco": 25.00,
+      "preco_com_desconto": 22.50
+    },
+    {
+      "image": "../assets/medicine_box.png",
+      "nome": "Lisinopril",
+      "dosagem": "20mg",
+      "marca": "Zestril",
+      "indicacao": "Antihipertensivo",
+      "descricao": "Ajuda a baixar a pressão arterial e tratar insuficiência cardíaca.",
+      "preco": 27.00,
+      "preco_com_desconto": 24.30
+    },
+    {
+      "image": "../assets/medicine_box.png",
+      "nome": "Amlodipina",
+      "dosagem": "5mg",
+      "marca": "Norvasc",
+      "indicacao": "Bloqueador de Canal de Cálcio",
+      "descricao": "Usado para tratar pressão alta e prevenir angina.",
+      "preco": 24.00,
+      "preco_com_desconto": 21.60
+    },
+    {
+      "image": "../assets/medicine_box.png",
+      "nome": "Esomeprazol",
+      "dosagem": "40mg",
+      "marca": "Nexium",
+      "indicacao": "Inibidor da Bomba de Prótons",
+      "descricao": "Alivia sintomas de refluxo ácido e azia.",
+      "preco": 29.00,
+      "preco_com_desconto": 26.10
+    },
+    {
+      "image": "../assets/medicine_box.png",
+      "nome": "Alprazolam",
+      "dosagem": "1mg",
+      "marca": "Xanax",
+      "indicacao": "Benzodiazepínico",
+      "descricao": "Utilizado para tratar ansiedade e ataques de pânico.",
+      "preco": 30.00,
+      "preco_com_desconto": 27.00
+    },
+    {
+      "image": "../assets/medicine_box.png",
+      "nome": "Furosemida",
+      "dosagem": "40mg",
+      "marca": "Lasix",
+      "indicacao": "Diurético",
+      "descricao": "Utilizado para tratar retenção de líquidos e hipertensão.",
+      "preco": 15.00,
+      "preco_com_desconto": 13.50
+    },
+    {
+      "image": "../assets/medicine_box.png",
+      "nome": "Nimesulida",
+      "dosagem": "100mg",
+      "marca": "Nisulid",
+      "indicacao": "Anti-inflamatório",
+      "descricao": "Usado para aliviar dor aguda e inflamação.",
+      "preco": 14.00,
+      "preco_com_desconto": 12.60
+    },
+    {
+      "image": "../assets/medicine_box.png",
+      "nome": "Levotiroxina",
+      "dosagem": "50mcg",
+      "marca": "Synthroid",
+      "indicacao": "Hormônio Tiroideano",
+      "descricao": "Utilizado para tratar o hipotireoidismo, substituindo o hormônio da tireoide.",
+      "preco": 19.00,
+      "preco_com_desconto": 17.10
     }
   ]
 }
