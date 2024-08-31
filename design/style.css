@@ -108,18 +108,14 @@ p {
   align-items: center;
   gap: 30px;
 }
-.productContainer h1 {
-  justify-content: center;
-  text-align: center;
-  font-size: 3rem;
-}
 
 .productContainer .meds {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   text-align: center;
+  width: 100%;
   font-size: 3rem;
+  padding-left: 350px;
+  margin: 0;
+  padding-bottom: 20px;
 }
 
 .medicine-grid {
@@ -142,7 +138,7 @@ p {
   align-items: center;
   justify-content: center;
   width: 250px;
-  height: 500px;
+  height: 525px;
   margin: 20px;
   border-radius: 15px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
