@@ -114,6 +114,15 @@ p {
   text-align: center;
   font-size: 3rem;
 }
+
+.productContainer .meds {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 3rem;
+}
+
 .medicine-grid {
   display: grid;
   justify-content: space-between;
@@ -134,7 +143,7 @@ p {
   justify-content: center;
   width: 250px;
   height: 500px;
-  margin: 10px;
+  margin: 20px;
   border-radius: 15px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   background-color: #ffffff;
@@ -168,6 +177,7 @@ p {
 }
 
 .card h3 {
+  margin-top: 10px;
   font-size: 1.4rem;
   margin-bottom: 5px;
   color: #333;
