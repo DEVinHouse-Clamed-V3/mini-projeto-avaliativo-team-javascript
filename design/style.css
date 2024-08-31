@@ -133,10 +133,17 @@ p {
   align-items: center;
   justify-content: center;
   width: 250px;
-  height: 400px;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  height: 500px;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
 .med-description {
@@ -145,30 +152,47 @@ p {
   align-items: center;
   border: 1px solid #999;
   border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #f9f9f9;
+  font-size: 0.9rem;
   font: inherit;
-  line-height: 30px;
+  line-height: 1.4;
 }
 
-.price {
-
+.card img {
+  width: 120px;
+  height: auto;
+  border-radius: 8px;
+  margin: 10px;
 }
 
-.price i {
-  color: #00963C;
+.card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 5px;
+  color: #333;
 }
 
-.discount {
-
+.card h6 {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+.card .price,
+.card .discount {
+  font-size: 1rem;
+  color: #52a071;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.card .discount {
+  color: #d953af;
 }
 
-.discount {
-
+.fa-tag,
+.fa-money-bill-1 {
+  margin-right: 5px;
 }
-
-.generate-button{
-
-}
-
 .btn {
   margin: 30px;
   width: 200px;
@@ -183,6 +207,25 @@ p {
 }
 
 .btn:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  background-color: #5ec989;
+}
+
+.buy-btn {
+  margin: 5px;
+  width: 180px;
+  height: 35px;
+  font-size: 1rem;
+  background-color: #52a071;
+  color: #fff;
+  border-radius: 20px;
+  padding: 3px;
+  border: none;
+  transition: transform 0.2s ease;
+}
+
+.buy-btn:hover {
   transform: scale(1.1);
   cursor: pointer;
   background-color: #5ec989;
