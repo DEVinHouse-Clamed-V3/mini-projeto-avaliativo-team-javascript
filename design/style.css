@@ -84,6 +84,50 @@ p {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
+.shadowForm{
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+}
+
+.formRegister{
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 8px;
+  gap: 10px;
+  font-size: 18px;
+  padding: 0px 30px 30px 30px;
+}
+
+.formInput{
+  padding: 15px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  border-radius: 8px;
+  transition: all linear 160ms;
+  outline: none;
+}
+
+.input-div{
+  display: flex;
+  flex-direction: column;
+  
+  margin-top: 15px;
+}
+
+.formDsp{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.formh2{
+  display: flex;
+  justify-content: center;
+}
+
 /* PRODUCT VISUALIZATION */
 
 .product-container-title{
