@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./design/style.css" >
   <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
   <title>FarmetZ - Cadastro de medicamento</title>
@@ -12,16 +11,37 @@
   <header>
     <div class="header-content">
       <a href="/"><img class="logo-header" src="./assets/farmetz.png"></a>
-      <a href="index.html"><i class="fa-solid fa-house fa-lg"></i></a>
     </div>
   </header>
 
-  <div class="content-create-container">
-      <div class="create-container-title">
-        <h1>CADASTRAR MEDICAMENTO</h1>
+  <div class="content-create-container ">
+      <div class="create-container-title ">
+        <h1 class="create-h1">CADASTRAR MEDICAMENTO</h1>
       </div>
-      <div class="product-create-container" >
-        <p>O formulário de cadastro deverá ficar aqui!</p>
+      <div class="product-create-container" > 
+        <section id="formulario">
+          <div class="content-create-container"></div>
+          
+          <form>
+            <div class="input-div ">
+            <label for="nome">Medicamento</label>
+            <input type="text" placeholder="Informe o nome do medicamento" id="nome" class="formInput">
+          </div>
+            <div class="input-div">
+            <label for="lab">Laboratório</label>
+            <input type="text" placeholder="Informe o nome do laboratório" id="lab" class="formInput">
+          </div>
+            <div class="input-div">
+            <label for="lab">Preço</label>
+            <input type="number" placeholder="Informe o preço" id="preco" class="formInput">
+          </div>
+        <div class="formh2">
+            <button type="submit" class="btn" id="button-form">Cadastrar</button>
+        </div>
+        </form>
+      
+        </div>
+      </section>
       </div>
   </div>
   <script src="./scripts/medicineCreate.js"></script>

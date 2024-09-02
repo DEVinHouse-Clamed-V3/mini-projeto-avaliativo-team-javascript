@@ -60,12 +60,10 @@ p {
 }
 
 /* PRODUCT CREATE SESSION */
-
 .content-create-container{
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 
 .create-container-title{
@@ -79,6 +77,10 @@ p {
   padding: 20px;
 }
 
+.create-container-title .create-h1 {
+  color: #fff;
+}
+
 .product-create-container{
   background-color: #FFFFFF;
   height: 40%;
@@ -86,8 +88,102 @@ p {
   border-radius: 0 0 8px 8px;
   padding: 20px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
 }
 
+.shadowForm{
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+}
+
+.formRegister{
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 8px;
+  gap: 10px;
+  font-size: 18px;
+  padding: 0px 30px 30px 30px;
+}
+
+.formInput{
+  padding: 15px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  border-radius: 8px;
+  transition: all linear 160ms;
+  outline: none;
+}
+
+.input-div{
+  display: flex;
+  flex-direction: column;
+  
+  margin-top: 15px;
+}
+
+.formDsp{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.formh2{
+  display: flex;
+  justify-content: center;
+}
+
+.btn-create {
+  line-height: 50px;
+  height: 50px;
+  text-align: center;
+  width: 250px;
+  cursor: pointer;
+  background-color: #00963C;
+  border-color: #FFF;
+  border-radius: 8px;
+}
+
+.formBttn {
+  color: #FFF;
+  transition: all 0.5s;
+  position: relative;
+}
+
+.formBttn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(255,255,255,0.1);
+  transition: all 0.3s;
+}
+.formBttn:hover::before {
+  opacity: 0 ;
+  transform: scale(0.5,0.5);
+}
+.formBttn::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s;
+  border: 1px solid rgba(255,255,255,0.5);
+  transform: scale(1.2,1.2);
+}
+.formBttn:hover::after {
+  opacity: 1;
+  transform: scale(1,1);
+}
 /* PRODUCT VISUALIZATION */
 /* Franklin */
 .product-container-title{
@@ -98,12 +194,12 @@ p {
 .productContainer{
   background-color: #FFFFFF;
   height: 90%;
-  width: 1100px;
+  width: 1375px;
   border-radius: 8px;
   padding: 30px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   justify-content: center;
   align-items: center;
   gap: 30px;
@@ -113,7 +209,7 @@ p {
   text-align: center;
   width: 100%;
   font-size: 3rem;
-  padding-left: 350px;
+  padding-left: 475px;
   margin: 0;
   padding-bottom: 20px;
 }
@@ -140,6 +236,7 @@ p {
   width: 250px;
   height: 525px;
   margin: 20px;
+  padding: 10px;
   border-radius: 15px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   background-color: #ffffff;
@@ -189,7 +286,7 @@ p {
   font-size: 1rem;
   color: #52a071;
   font-weight: bold;
-  margin-top: 10px;
+  /* margin-top: 10px; */
 }
 .card .discount {
   color: #d953af;
@@ -222,11 +319,11 @@ p {
   margin: 5px;
   width: 180px;
   height: 35px;
-  font-size: 1rem;
+  font-size: 0.975rem;
   background-color: #52a071;
   color: #fff;
   border-radius: 20px;
-  padding: 3px;
+  padding: 5px;
   border: none;
   transition: transform 0.2s ease;
 }
