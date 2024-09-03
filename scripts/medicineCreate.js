@@ -9,19 +9,22 @@ document
 
     // Capture form information
     const name = document.getElementById("nome").value;
+    const dosagem = document.getElementById("dosagem").value;
     const lab = document.getElementById("lab").value;
-    const price = parseFloat(document.getElementById("preco").value); //Convert string to float
+    const indicacao = document.getElementById("indicacao").value;
+    const descricao = document.getElementById("descricao").value;
+    const preco = parseFloat(document.getElementById("preco").value);
 
     //Create the medicine object
     const newMedicine = {
       image: "../assets/medicine_box.png", //default image
       nome: name,
-      dosagem: "10mg", //default dosagem
+      dosagem: dosagem, //default dosagem
       marca: lab,
-      indicacao: "Analgésico/Antipirético", //default indication
-      descricao: "Ajuda reduzir inflamação", //default description
-      preco: parseFloat(price).toFixed(2), //str to int, and 2 decimal cases
-      preco_com_desconto: (price * 0.9).toFixed(2), //Add 10% discount
+      indicacao: indicacao, //default indication
+      descricao: descricao, //default description
+      preco: parseFloat(preco).toFixed(2), //str to int, and 2 decimal cases
+      preco_com_desconto: (preco * 0.9).toFixed(2), //Add 10% discount
     };
     
     jsonMedicine.availableMedicine.push(newMedicine)
