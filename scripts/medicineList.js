@@ -26,7 +26,7 @@ function renderMedicine(medicines) {
   <h6> ${item.marca}</h6>
   <img src="${item.image}" alt="${item.nome}">
   <div class="med-description">
-  <p> ${item.indicacao}. </p> 
+  <p> ${item.indicacao}. </p>
   <p> ${item.descricao} </p>
   </div>
   <p class="price" ><i class="fa-solid fa-tag"></i> R$: ${item.preco.toFixed(2)} </p>
