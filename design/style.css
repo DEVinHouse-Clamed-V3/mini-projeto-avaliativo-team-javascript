@@ -26,6 +26,10 @@ header{
   align-items: center;
 }
 
+.header-content i {
+  color: #fff;
+}
+
 .logo-header{
   height: 40px;
   max-height: 40px;
@@ -47,7 +51,7 @@ header{
 h1{
   font-size: 30px;
   font-weight: bold;
-  color: #FFFFFF;
+  color: #000000;
 }
 
 p {
@@ -56,13 +60,10 @@ p {
 }
 
 /* PRODUCT CREATE SESSION */
-
 .content-create-container{
   display: flex;
   flex-direction: column;
   align-items: center;
-  
-  
 }
 
 .create-container-title{
@@ -74,6 +75,10 @@ p {
   width: 40%;
   border-radius: 8px 8px 0 0 ;
   padding: 20px;
+}
+
+.create-container-title .create-h1 {
+  color: #fff;
 }
 
 .product-create-container{
@@ -102,6 +107,7 @@ p {
 }
 
 .formInput{
+  height: 25px;
   padding: 15px;
   font-size: 14px;
   border: 1px solid #ccc;
@@ -129,8 +135,12 @@ p {
   display: flex;
   justify-content: center;
 }
+.formContainer{
+ 
+  padding: 30px;
+}
 
-.btn {
+.btn-create {
   line-height: 50px;
   height: 50px;
   text-align: center;
@@ -179,24 +189,152 @@ p {
   opacity: 1;
   transform: scale(1,1);
 }
-/*BUTTON
-
-
 /* PRODUCT VISUALIZATION */
-
+/* Franklin */
 .product-container-title{
   margin:50px 0 8px 15px;
   width: 90%;
 }
 
-.product-container{
+.productContainer{
   background-color: #FFFFFF;
-  height: 90%;
-  width: 90%;
+  height: 100%;
+  width: 1375px;
   border-radius: 8px;
-  padding: 20px;
+  padding: 30px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   justify-content: center;
   align-items: center;
+  gap: 30px;
+}
+
+.productContainer .meds {
+  text-align: center;
+  width: 100%;
+  font-size: 3rem;
+  padding-left: 475px;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.medicine-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  width: 250px;
+  transform: translateX(20px);
+}
+
+.medicine-div {
+  display: grid;
+  width: 250px;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 540px;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.med-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #999;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #f9f9f9;
+  font-size: 0.9rem;
+  font: inherit;
+  line-height: 1.4;
+}
+
+.card img {
+  width: 120px;
+  height: auto;
+  border-radius: 8px;
+  margin: 10px;
+}
+
+.card h3 {
+  margin-top: 10px;
+  font-size: 1.4rem;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.card h6 {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+.card .price,
+.card .discount {
+  font-size: 1rem;
+  color: #52a071;
+  font-weight: bold;
+  /* margin-top: 10px; */
+}
+.card .discount {
+  color: #d953af;
+}
+
+.fa-tag,
+.fa-money-bill-1 {
+  margin-right: 5px;
+}
+.btn {
+  margin: 30px;
+  width: 200px;
+  height: 50px;
+  font-size: 1.2rem;
+  background-color: #52a071;
+  color: #fff;
+  border-radius: 15px;
+  padding: 3px;
+  border: none;
+  transition: transform 0.2s ease;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  background-color: #5ec989;
+}
+
+.buy-btn {
+  margin: 5px;
+  width: 180px;
+  height: 35px;
+  font-size: 0.975rem;
+  background-color: #52a071;
+  color: #fff;
+  border-radius: 20px;
+  padding: 5px;
+  border: none;
+  transition: transform 0.2s ease;
+}
+
+.buy-btn:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  background-color: #5ec989;
 }
