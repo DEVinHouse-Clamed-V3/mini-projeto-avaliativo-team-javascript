@@ -51,7 +51,7 @@ header{
 h1{
   font-size: 30px;
   font-weight: bold;
-  color: #FFFFFF;
+  color: #000;
 }
 
 p {
@@ -91,6 +91,10 @@ p {
 
 }
 
+.create-h1 {
+  color: #fff;
+}
+
 .shadowForm{
   box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
   border-radius: 8px;
@@ -121,7 +125,6 @@ p {
 .input-div{
   display: flex;
   flex-direction: column;
-  
   margin-top: 15px;
 }
 
@@ -196,15 +199,19 @@ p {
   width: 90%;
 }
 
+.product-container-title h1{
+  color: #000;
+}
+
 .productContainer{
   background-color: #FFFFFF;
   height: 100%;
-  width: 1375px;
+  width: 1200px;
   border-radius: 8px;
   padding: 30px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   align-items: center;
   gap: 30px;
@@ -214,22 +221,23 @@ p {
   text-align: center;
   width: 100%;
   font-size: 3rem;
-  padding-left: 475px;
+  padding-left: 400px;
   margin: 0;
   padding-bottom: 20px;
+  color: #000;
 }
 
 .medicine-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-content: space-between;
-  width: 250px;
-  transform: translateX(20px);
+  width: 235px;
+  transform: translateX(35px);
 }
 
 .medicine-div {
   display: grid;
-  width: 250px;
+  width: 235px;
 }
 
 .card {
