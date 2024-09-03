@@ -1,13 +1,10 @@
-import jsonMedicine from '../data/medicine.json' with {type: "json"}
-// salvar info do formulário dentro do JSON
-// JSON.stringify(jsonFile) transforma em string
+import availableMedicine from '../data/medicine.json' with {type: "json"}
 
 document
   .getElementById("form-medicine")
   .addEventListener("submit", function (event) {
-    event.preventDefault(); //Prevents the form from submitting the traditional way
+    event.preventDefault();
 
-    // Capture form information
     const name = document.getElementById("nome").value;
     const dosagem = document.getElementById("dosagem").value;
     const lab = document.getElementById("lab").value;
@@ -17,19 +14,19 @@ document
 
     //Create the medicine object
     const newMedicine = {
-      image: "../assets/medicine_box.png", //default image
+      image: "../assets/medicine_box.png",
       nome: name,
-      dosagem: dosagem, //default dosagem
+      dosagem: dosagem,
       marca: lab,
-      indicacao: indicacao, //default indication
-      descricao: descricao, //default description
-      preco: parseFloat(preco).toFixed(2), //str to int, and 2 decimal cases
-      preco_com_desconto: (preco * 0.9).toFixed(2), //Add 10% discount
+      indicacao: indicacao,
+      descricao: descricao,
+      preco: parseFloat(preco).toFixed(2),
+      preco_com_desconto: (preco * 0.9).toFixed(2)
     };
-    
+
     jsonMedicine.availableMedicine.push(newMedicine)
 
-    console.log(JSON.stringify(jsonMedicine, null, 2))
+    console.log(JSON.stringify(availableMedicine, null, 2))
 
     alert("Medicamento adicionado!");
   });
