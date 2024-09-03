@@ -27,6 +27,9 @@ function renderMedicine(medicines) {
   <h3> ${item.nome}</h3>
   <h6> ${item.marca}</h6>
   <img src="${item.image}" alt="${item.nome}">
+  <div>
+  <p> ${item.dosagem}</p>
+  </div>
   <div class="med-description">
   <p> ${item.indicacao}. </p>
   <p> ${item.descricao} </p>

@@ -224,7 +224,7 @@ p {
 
 .medicine-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   justify-content: space-between;
   width: 235px;
   transform: translateX(35px);
