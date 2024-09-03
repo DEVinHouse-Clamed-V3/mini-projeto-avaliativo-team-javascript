@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./design/style.css" >
+  <link rel="stylesheet" href="./design/style.css">
   <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
   <title>FarmetZ - Cadastro de medicamento</title>
 </head>
+
 <body>
   <header>
     <div class="header-content">
@@ -15,35 +17,50 @@
   </header>
 
   <div class="content-create-container ">
-      <div class="create-container-title ">
-        <h1 class="create-h1">CADASTRAR MEDICAMENTO</h1>
-      </div>
-      <div class="product-create-container" > 
-        <section id="formulario">
-          <div class="content-create-container"></div>
-          
-          <form>
-            <div class="input-div ">
+    <div class="create-container-title ">
+      <h1 class="create-h1">CADASTRAR MEDICAMENTO</h1>
+    </div>
+    <div class="product-create-container">
+      <section id="formulario">
+        <div class="content-create-container"></div>
+
+        <form>
+          <div class="input-div ">
             <label for="nome">Medicamento</label>
             <input type="text" placeholder="Informe o nome do medicamento" id="nome" class="formInput">
           </div>
-            <div class="input-div">
+          <div class="input-div">
             <label for="lab">Laboratório</label>
             <input type="text" placeholder="Informe o nome do laboratório" id="lab" class="formInput">
           </div>
-            <div class="input-div">
+          <div class="input-div">
             <label for="lab">Preço</label>
             <input type="number" placeholder="Informe o preço" id="preco" class="formInput">
           </div>
-        <div class="formh2">
+          <div class="input-div">
+            <label for="lab">Indicação</label>
+            <input type="text" placeholder="Informe a indicação " id="indicacao" class="formInput">
+          </div>
+          <div class="input-div">
+            <label for="lab">Dosagem</label>
+            <input type="number" placeholder="Informe a dosagem do produto" id="dosagem" class="formInput">
+          </div>
+
+          <div class="input-div">
+            <label for="descricao">Descrição do medicamento</label>
+            <textarea id="descricao" rows="5" placeholder="Insira a descrição do medicamento"></textarea>
+        </div>
+
+          <div class="formh2">
             <button type="submit" class="btn" id="button-form">Cadastrar</button>
-        </div>
+          </div>
         </form>
-      
-        </div>
-      </section>
-      </div>
+
+    </div>
+    </section>
+  </div>
   </div>
   <script src="./scripts/medicineCreate.js"></script>
 </body>
+
 </html>
