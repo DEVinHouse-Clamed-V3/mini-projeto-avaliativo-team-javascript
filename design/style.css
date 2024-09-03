@@ -107,6 +107,7 @@ p {
 }
 
 .formInput{
+  height: 25px;
   padding: 15px;
   font-size: 14px;
   border: 1px solid #ccc;
@@ -133,6 +134,10 @@ p {
 .formh2{
   display: flex;
   justify-content: center;
+}
+.formContainer{
+ 
+  padding: 30px;
 }
 
 .btn-create {
